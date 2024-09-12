@@ -1,11 +1,13 @@
 /* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
-
+@import url("https://giphy.com/gifs/glitch-manga-art-SdBCTQOuO2AlZYX3sM?");
 html {
   box-sizing: border-box;
 }
 body {
   margin: 0px;
-  background-color: #45badd;
+  background-image: linear-gradient( #350B99, #1F51FF);
+  background-image: (url(eva.mp4));
+ 
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('./robot.gif');
+ 
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
@@ -38,8 +40,8 @@ button:disabled{
 button {
   cursor: pointer;
   outline: none;
-  width: 200px;
-  height: 50px;
+  width: 300px;
+  height: 100px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   color: white;
